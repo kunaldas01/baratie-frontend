@@ -54,7 +54,7 @@ const UserProfileForm = ({
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSave)}
-        className="mx-4 my-auto space-y-4 bg-gray-50 rounded-lg md:p-10"
+        className="space-y-4 bg-gray-50 rounded-lg md:p-10"
       >
         <div>
           <h2 className="text-2xl font-bold">{title}</h2>
